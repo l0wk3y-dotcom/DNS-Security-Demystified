@@ -29,6 +29,7 @@ Imagine you want to visit your favorite website, say www.example.com. Here’s w
 8. **Connect to the Website**: Armed with the IP address, your computer can now connect to www.hackerone.com, and voilà, the website loads on your screen.
 
 > *All of this happens in a split second, seamlessly connecting you to websites around the world. But remember, **every step in this process is a potential target for attackers**, making DNS both a powerful tool and a critical point of vulnerability.*
+
 #### Common terms in DNS
 While enumerating dns or having any interaction you might not just simply see a domain name and it's IP address there is so much else that DNS does for us these are some common terminologies you'd be encountering while enumerating a target's DNS
 
@@ -218,6 +219,7 @@ In the output, you’ll see various records:
 - The `A` record shows the IP address associated with the domain.
 - The `MX` record tells you where to send emails for this domain.
 - Additional records, like the `A` record for the mail server, provide further details.
+
 #### Conclusion
 
 In wrapping up, it’s clear that while DNS is an essential part of our digital infrastructure, it’s not without its vulnerabilities. Understanding how DNS works, including concepts like zone transfers, equips us with the knowledge to better safeguard our systems. By recognizing the potential risks associated with zone transfers and implementing proper security measures, we can protect against the exploitation of DNS data and keep our networks secure. As we continue to navigate and defend the digital landscape, staying informed and vigilant about DNS security will remain a crucial part of our cybersecurity practices.

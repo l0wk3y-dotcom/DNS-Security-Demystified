@@ -156,7 +156,8 @@ These tools will help you get a detailed view of DNS records and configurations,
 
 ###### Zone Transfer
 A DNS zone transfer is like the internet’s version of sharing a contact list between friends. It’s the process that allows DNS servers to share and synchronize their records with each other. Imagine you have a primary DNS server, which holds all the important details about a domain—things like IP addresses for websites, mail servers, and various other configurations. This primary server is the source of truth, keeping all the crucial DNS records up to date.
-![[Pasted image 20240727103827.png]]
+
+![Explanaition of DNS zone transfers](Pasted%20image%2020240727103827.png)
 
 To ensure that other DNS servers have the same information and can provide reliable responses, these secondary DNS servers need to get a copy of the primary server’s records. That’s where the zone transfer comes into play. It’s basically a way for these secondary servers to request and receive a copy of the DNS zone file from the primary server. This zone file contains all the DNS records for a domain, essentially ensuring that the secondary servers have the latest and most accurate information.
 

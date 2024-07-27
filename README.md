@@ -10,7 +10,7 @@ So, how does this phonebook, actually work? Let's break it down.
 
 Imagine you want to visit your favorite website, say www.example.com. Here’s what happens behind the scenes:
 
-![[Pasted image 20240727103212.png]]
+![How DNS works?](Pasted%20image%2020240727103212.png)
 
 1. **You type the URL**: You put in www.example.com and hit enter. Your computer needs to figure out where to find this site on the internet.
 
